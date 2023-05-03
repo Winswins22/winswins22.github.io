@@ -1,3 +1,5 @@
+// MUI plz
+
 function Navbar({children}) {
     return (
         <>
