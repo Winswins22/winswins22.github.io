@@ -1,8 +1,10 @@
+import BackgroundGradientController from "./components/BackgroundGradientController";
+
 function App() {
   return (
-    <div>
+    <BackgroundGradientController>
         hello
-    </div>
+    </BackgroundGradientController>
   );
 }
 
