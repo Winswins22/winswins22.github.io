@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
+const Spacer = styled.div`
     padding-left: 100px;
     padding-right: 100px;
 `
 
-function PageWrapper({children}) {
+function PageSpacer({children}) {
     return (
         <>
-            <Wrapper>{children}</Wrapper>
+            <Spacer>{children}</Spacer>
         </>
     )
 }
 
-export default PageWrapper
+export default PageSpacer

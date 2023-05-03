@@ -1,6 +1,6 @@
 import BackgroundGradientController from "./components/BackgroundGradientController";
 import Navbar from "./components/Navbar";
-import PageWrapper from "./components/PageWrapper";
+import PageSpacer from "./components/PageSpacer";
 
 import AboutPage from "./pages/About";
 import ExperiencesPage from "./pages/Experiences";
@@ -10,14 +10,17 @@ function App() {
   return (
     <>
       <Navbar> navbar </Navbar> {/* not sure if i can place this navbar here yet ... need to experiment */}
-      <PageWrapper>
-        <AboutPage> </AboutPage>
+
+      <PageSpacer>
+
+        <AboutPage />
         <BackgroundGradientController>
-            bg-controller
-            <ExperiencesPage> </ExperiencesPage>
-            <ProjectsPage> </ProjectsPage>
+            {/* bg-controller */}
+            <ExperiencesPage />
+            <ProjectsPage />
         </BackgroundGradientController>
-      </PageWrapper>
+
+      </PageSpacer>
     </>
   );
 }
